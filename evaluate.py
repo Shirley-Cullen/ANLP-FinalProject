@@ -30,7 +30,7 @@ def main(
     lora_weights: str = "tloen/alpaca-lora-7b",
     test_data_path: str = "data/test.json",
     result_json_data: str = "temp.json",
-    batch_size: int = 32,
+    batch_size: int = 16,
     share_gradio: bool = False,
 ):
     assert (
@@ -49,8 +49,8 @@ def main(
         test_sce = 'book'
     else:
         test_sce = 'movie'
-    
     temp_list = model_type.split('_')
+    print(temp_list)
     seed = temp_list[-2]
     sample = temp_list[-1]
     
@@ -86,7 +86,7 @@ def main(
             model,
             lora_weights,
             torch_dtype=torch.float16,
-            device_map={'': 0}
+            device_map="auto"
         )
     elif device == "mps":
         model = LlamaForCausalLM.from_pretrained(
