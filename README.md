@@ -3,18 +3,16 @@
 Our Code is based on [TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation](https://github.com/SAI990323/TALLRec/tree/main).
 
 # Main results
-|                                 |  |movie |  ||   book |  |
-|-------------------------------                  | ----- | ----- | ----- | ----- | ----- | ----- |
-| Few-shot                          | 16     | 64     | 256 | 16 | 64 | 256 |
-| GRU                             | 49.07 | 49.87 | 52.89 | 48.95 | 49.64 | 49.86 |
-| Caser                           | 49.68 | 51.06 | 54.20 | 49.84 | 49.72 | 49.57 |
-| SASRec                          | 50.43  | 50.48 | 52.25 | 49.48 | 50.06 | 50.20 |
-| DROS                            | 50.76    | 51.54  | 54.07 | 49.28 | 49.13 | 49.13 |
-| GRU-BERT                         | 50.85  | 51.65 | 53.44 | 50.07 | 49.64 | 49.79 |
-| DROS-BERT                         | 50.21  | 51.71 | 53.94 | 50.07 | 48.98 | 50.20 |
-| TALLRec (ours)               | **67.24** | **67.48** | **71.98** | **56.36** | **60.39** | **64.38** |
+**Performance comparison (AUC × 100)**
 
-Table 1. we shown the AUC results of the baseline models and our frameworks on movie and book scenarios.
+|                      | **movie** |        | **book**  |        |
+|----------------------|-----------|--------|-----------|--------|
+|                      | **16**    | **64** | **16**    | **64** |
+| **TALLRec**          | 67.24     | 67.48  | 56.36     | 60.39  |
+| **TALLRec (Reproduce)** | 65.73  | 65.91  | 58.58     | 66.15  |
+
+
+Table 1. we shown the AUC results of the baseline models and our reproduction on movie and book scenarios.
 
 Train TALLRec base on LLaMA7B:
 ```
