@@ -178,7 +178,7 @@ def main(
         instructions = [_['instruction'] for _ in test_data]
         inputs = [_['input'] for _ in test_data]
         gold = [int(_['output'] == 'Yes.') for _ in test_data]
-        def batch(list, batch_size=32):
+        def batch(list, batch_size=16):
             chunk_size = (len(list) - 1) // batch_size + 1
             for i in range(chunk_size):
                 yield list[batch_size * i: batch_size * (i + 1)]
