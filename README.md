@@ -1,4 +1,4 @@
-# Enhancing Factual Accuracy of LLMs through Retrieval-Augmented Generation on Pittsburgh and CMU Knowledge Bases
+# Empowering Recommender Systems by LLM
 
 Our Code is based on [TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation](https://github.com/SAI990323/TALLRec/tree/main).
 
