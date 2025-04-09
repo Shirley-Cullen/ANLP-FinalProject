@@ -1,10 +1,6 @@
-Our weights for the instruction tuning model is uploading [here](https://drive.google.com/file/d/1teUwLm4BOqhngfCKKXE1tiMhJPf_FvRJ/view?usp=sharing)
+# Enhancing Factual Accuracy of LLMs through Retrieval-Augmented Generation on Pittsburgh and CMU Knowledge Bases
 
-**TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation** is available at https://arxiv.org/abs/2305.00447.
-
-**Wrongly delete the line in evaluate.py by mistake, now it has been updated**
-
-We introduce a novel framework (TALLRec) that enables the efficient and effective adaptation of LLMs to recommendation tasks.
+Our Code is based on [TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation](https://github.com/SAI990323/TALLRec/tree/main).
 
 # Main results
 |                                 |  |movie |  ||   book |  |

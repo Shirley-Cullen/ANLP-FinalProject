@@ -1,16 +1,16 @@
 echo $1, $2
 seed=$2
-output_dir="/home/ubuntu/TALLRec/output/models"
+output_dir="/home/ubuntu/TALLRec/output/models_book_alpaca-lora-7B"
 # base_model="/home/ubuntu/CoLLM/llama-7b"
 base_model='baffo32/decapoda-research-llama-7B-hf'
-train_data="/home/ubuntu/TALLRec/data/movie/train.json"
-val_data="/home/ubuntu/TALLRec/data/movie/valid.json"
+train_data="/home/ubuntu/TALLRec/data/book/train.json"
+val_data="/home/ubuntu/TALLRec/data/book/valid.json"
 instruction_model="alpaca-lora-7B"
 for lr in 1e-4
 do
     for dropout in 0.05
     do
-        for sample in 64
+        for sample in 16 64
         do
                 mkdir -p $output_dir
                 echo "lr: $lr, dropout: $dropout , seed: $seed, sample: $sample"
