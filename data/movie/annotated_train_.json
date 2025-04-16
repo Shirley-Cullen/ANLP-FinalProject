@@ -1,0 +1,26 @@
+[
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Clockwork Orange, A (1971)\"\nUser Unpreference: \"Mary Poppins (1964)\", \"Graduate, The (1967)\", \"Sense and Sensibility (1995)\", \"Taxi Driver (1976)\", \"Young Frankenstein (1974)\", \"Aladdin (1992)\", \"Amadeus (1984)\", \"This Is Spinal Tap (1984)\", \"When Harry Met Sally... (1989)\"\nWhether the user will like the target movie \"Dead Poets Society (1989)\"?",
+        "output": "No.",
+        "explanation": "The user’s sole expressed preference is for 'Clockwork Orange, A (1971)', a film known for its provocative style and unconventional narrative. In contrast, 'Dead Poets Society (1989)' is an inspirational, sentimental drama. Additionally, many of the unpreferred movies indicate a rejection of more mainstream or emotionally conventional films, which supports the 'No.' recommendation."
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Clockwork Orange, A (1971)\"\nUser Unpreference: \"Graduate, The (1967)\", \"Sense and Sensibility (1995)\", \"Taxi Driver (1976)\", \"Young Frankenstein (1974)\", \"Aladdin (1992)\", \"Amadeus (1984)\", \"This Is Spinal Tap (1984)\", \"When Harry Met Sally... (1989)\", \"Dead Poets Society (1989)\"\nWhether the user will like the target movie \"Right Stuff, The (1983)\"?",
+        "output": "No.",
+        "explanation": "While 'Right Stuff, The (1983)' is a well-regarded period drama, its narrative focus on traditional heroism and a conventional dramatic arc does not align with the style of 'Clockwork Orange, A (1971)'. The inclusion of similar films in the unpreference list further reinforces a decision against this target, leading to the 'No.' answer."
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Clockwork Orange, A (1971)\"\nUser Unpreference: \"Sense and Sensibility (1995)\", \"Taxi Driver (1976)\", \"Young Frankenstein (1974)\", \"Aladdin (1992)\", \"Amadeus (1984)\", \"This Is Spinal Tap (1984)\", \"When Harry Met Sally... (1989)\", \"Dead Poets Society (1989)\", \"Right Stuff, The (1983)\"\nWhether the user will like the target movie \"Cinema Paradiso (1988)\"?",
+        "output": "No.",
+        "explanation": "Cinema Paradiso is celebrated for its warm, nostalgic, and emotionally driven narrative. This sentimental tone contrasts sharply with the dark, idiosyncratic style of 'Clockwork Orange, A (1971)' that the user enjoys. The movie’s characteristics, along with its similarity to other unpreferred films, justify the 'No.' recommendation."
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Clockwork Orange, A (1971)\"\nUser Unpreference: \"Taxi Driver (1976)\", \"Young Frankenstein (1974)\", \"Aladdin (1992)\", \"Amadeus (1984)\", \"This Is Spinal Tap (1984)\", \"When Harry Met Sally... (1989)\", \"Dead Poets Society (1989)\", \"Right Stuff, The (1983)\", \"Cinema Paradiso (1988)\"\nWhether the user will like the target movie \"Patton (1970)\"?",
+        "output": "Yes.",
+        "explanation": "Although different in subject matter, 'Patton (1970)' shares an intense, dramatic, and uncompromising style that resonates with the user's clear preference for 'Clockwork Orange, A (1971)'. Unlike the disfavored sentimental or conventional narratives, 'Patton' offers a raw, character-driven performance and a robust historical portrayal, making it a better match for the user's tastes."
+    }
+]
