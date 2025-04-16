@@ -161,6 +161,7 @@ def main(
         s = generation_output.sequences
         output = tokenizer.batch_decode(s, skip_special_tokens=True)
         output = [_.split('Response:\n')[-1] for _ in output]
+        print(f"output: {output}")
         
         return output, logits.tolist()
         
@@ -197,6 +198,10 @@ def main(
     data[train_sce][test_sce][model_name][seed][sample] = roc_auc_score(gold, pred)
     f = open(result_json_data, 'w')
     json.dump(data, f, indent=4)
+    f.close()
+    output_json_path = f"{result_json_data.split('.')[0]}_output.json"
+    f = open(output_json_path, 'w')
+    json.dump(test_data, f, indent=4)
     f.close()
 
 def generate_prompt(instruction, input=None):
