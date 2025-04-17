@@ -1,0 +1,261 @@
+[
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Conspiracy Theory (1997)\", \"Good Will Hunting (1997)\", \"Wedding Singer, The (1998)\", \"Scream 2 (1997)\", \"For Richer or Poorer (1997)\"\nUser Unpreference: \"I Know What You Did Last Summer (1997)\", \"Fallen (1998)\", \"Chasing Amy (1997)\", \"Liar Liar (1997)\", \"Saint, The (1997)\"\nWhether the user will like the target movie \"Great Expectations (1998)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie is recommended because its period and dramatic tone are in line with the user’s preferred films, and it avoids the lighthearted or overly modern traits found among the unpreferred titles."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Trainspotting (1996)\", \"Fugitive, The (1993)\", \"Right Stuff, The (1983)\", \"Star Trek: The Wrath of Khan (1982)\", \"Babe (1995)\", \"Raiders of the Lost Ark (1981)\", \"Casino (1995)\", \"Aliens (1986)\"\nUser Unpreference: \"Crow, The (1994)\", \"Fish Called Wanda, A (1988)\"\nWhether the user will like the target movie \"Casablanca (1942)\"?",
+      "output": "Yes.",
+      "explanation": "Even though Casablanca is a classic from an earlier era, its timeless romance and strong narrative align with the user’s taste for well‐crafted, character driven films. The unpreferred titles are of a different modern comedic style."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Truth About Cats & Dogs, The (1996)\", \"Independence Day (ID4) (1996)\", \"Dragonheart (1996)\", \"I'm Not Rappaport (1996)\", \"Mission: Impossible (1996)\", \"Once Upon a Time... When We Were Colored (1995)\"\nUser Unpreference: \"Jungle2Jungle (1997)\", \"Wild America (1997)\", \"Sabrina (1995)\", \"Mars Attacks! (1996)\"\nWhether the user will like the target movie \"Down Periscope (1996)\"?",
+      "output": "Yes.",
+      "explanation": "Although the target is a lighter action comedy, its energetic style and 90s setting resonate with the other high-energy, modern films the user prefers while differing from the specific unpreferred comedies."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Star Trek: The Wrath of Khan (1982)\", \"Fugitive, The (1993)\", \"Professional, The (1994)\", \"Blade Runner (1982)\", \"Strange Days (1995)\", \"Terminator 2: Judgment Day (1991)\", \"Aliens (1986)\", \"Alien (1979)\"\nUser Unpreference: \"Braveheart (1995)\", \"Hunt for Red October, The (1990)\"\nWhether the user will like the target movie \"Butch Cassidy and the Sundance Kid (1969)\"?",
+      "output": "Yes.",
+      "explanation": "Although set in a different genre (a Western), the film’s strong character focus, wit, and dramatic narrative are in harmony with the user’s taste for action‐drama and iconic movies from earlier decades."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Babe (1995)\", \"Quiet Man, The (1952)\", \"M*A*S*H (1970)\", \"When Harry Met Sally... (1989)\", \"Get Shorty (1995)\", \"Cool Hand Luke (1967)\", \"Pulp Fiction (1994)\", \"Up in Smoke (1978)\", \"To Die For (1995)\"\nUser Unpreference: \"Tin Men (1987)\"\nWhether the user will like the target movie \"This Is Spinal Tap (1984)\"?",
+      "output": "No.",
+      "explanation": "The user’s preferences generally favor emotionally engaging narratives and dynamic dramas, while 'This Is Spinal Tap' is a satirical mockumentary with a very different tone that mirrors the kind of films listed in the unpreferred group."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Star Trek: First Contact (1996)\", \"People vs. Larry Flynt, The (1996)\", \"Mission: Impossible (1996)\"\nUser Unpreference: \"Rock, The (1996)\", \"Mighty Aphrodite (1995)\", \"Michael Collins (1996)\", \"Get on the Bus (1996)\", \"Spitfire Grill, The (1996)\", \"Smilla's Sense of Snow (1997)\", \"Nixon (1995)\"\nWhether the user will like the target movie \"Antonia's Line (1995)\"?",
+      "output": "No.",
+      "explanation": "The target movie is quite different from the high-concept sci-fi and action films in the preference list. Its tone and subject matter diverge from the user’s indicated tastes, leading to a ‘No’ recommendation."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"In the Name of the Father (1993)\", \"Star Trek: First Contact (1996)\", \"Citizen Kane (1941)\", \"Stand by Me (1986)\", \"Twelve Monkeys (1995)\"\nUser Unpreference: \"Smoke (1995)\", \"Six Degrees of Separation (1993)\", \"Bob Roberts (1992)\", \"My Favorite Year (1982)\", \"Taxi Driver (1976)\"\nWhether the user will like the target movie \"Perfect World, A (1993)\"?",
+      "output": "No.",
+      "explanation": "Given that the user’s preferences are anchored in classic or high-quality dramatic films and the target film appears less in line with these thematic qualities—and in light of the user’s unpreferred films—the decision is to not recommend it."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Delicatessen (1991)\", \"Apartment, The (1960)\", \"Star Wars (1977)\", \"Piano, The (1993)\", \"Wings of Desire (1987)\", \"Room with a View, A (1986)\", \"Miller's Crossing (1990)\", \"Apollo 13 (1995)\", \"Cool Hand Luke (1967)\"\nUser Unpreference: \"Professional, The (1994)\"\nWhether the user will like the target movie \"Glory (1989)\"?",
+      "output": "Yes.",
+      "explanation": "The films the user likes include a mix of classic, visually striking dramas and innovative storytelling. 'Glory' shares a grand historical scope and dramatic weight that align well with the user’s tastes while differing from the single unpreferred title."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Apollo 13 (1995)\", \"Die Hard (1988)\", \"Cinderella (1950)\", \"Snow White and the Seven Dwarfs (1937)\", \"Jurassic Park (1993)\", \"Fried Green Tomatoes (1991)\", \"Quiz Show (1994)\"\nUser Unpreference: \"Some Kind of Wonderful (1987)\", \"Jumanji (1995)\", \"Get Shorty (1995)\"\nWhether the user will like the target movie \"Cape Fear (1991)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie’s dark suspense and strong narrative align with the user’s taste for iconic thrillers, and its stylistic approach is very different from the unpreferred, family-friendly or light comedies."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Good, The Bad and The Ugly, The (1966)\", \"Ben-Hur (1959)\", \"Princess Bride, The (1987)\"\nUser Unpreference: \"Butch Cassidy and the Sundance Kid (1969)\", \"Jurassic Park (1993)\", \"Glory (1989)\", \"Clear and Present Danger (1994)\", \"True Romance (1993)\", \"Get Shorty (1995)\", \"Some Kind of Wonderful (1987)\"\nWhether the user will like the target movie \"Sense and Sensibility (1995)\"?",
+      "output": "No.",
+      "explanation": "While the user enjoys classic epics and adventurous films, 'Sense and Sensibility' is a period drama with a softer emotional focus. Its tone differs substantially from the user’s preferred blockbusters and adventure titles."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Glory (1989)\", \"Terminator, The (1984)\"\nUser Unpreference: \"Star Trek: The Motion Picture (1979)\", \"Alice in Wonderland (1951)\", \"So I Married an Axe Murderer (1993)\", \"Barbarella (1968)\", \"Disclosure (1994)\", \"Waterworld (1995)\", \"Herbie Rides Again (1974)\", \"English Patient, The (1996)\"\nWhether the user will like the target movie \"Pulp Fiction (1994)\"?",
+      "output": "No.",
+      "explanation": "The user’s preference for 'Glory' and 'Terminator, The' shows an affinity for intense, dramatic action and clear genre boundaries. 'Pulp Fiction' employs a non-linear narrative and eclectic style that diverges from these preferences, matching more closely with unpreferred styles."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Four Weddings and a Funeral (1994)\", \"Like Water For Chocolate (Como agua para chocolate) (1992)\", \"Eat Drink Man Woman (1994)\", \"Madness of King George, The (1994)\", \"My Life as a Dog (Mitt liv som hund) (1985)\", \"Cold Comfort Farm (1995)\", \"My Left Foot (1989)\", \"Room with a View, A (1986)\"\nUser Unpreference: \"Secret of Roan Inish, The (1994)\", \"Richard III (1995)\"\nWhether the user will like the target movie \"Jane Eyre (1996)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie’s period setting and romantic period drama feel are very much in line with the user’s preference for refined, classic stories. Its style also distinguishes it from the films in the unpreference list."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Little Women (1994)\", \"Christmas Carol, A (1938)\", \"Apocalypse Now (1979)\", \"Indiana Jones and the Last Crusade (1989)\", \"Gone with the Wind (1939)\", \"American Werewolf in London, An (1981)\"\nUser Unpreference: \"While You Were Sleeping (1995)\", \"Bridges of Madison County, The (1995)\", \"Pulp Fiction (1994)\", \"My Fair Lady (1964)\"\nWhether the user will like the target movie \"Young Frankenstein (1974)\"?",
+      "output": "Yes.",
+      "explanation": "Even though the user’s preference includes a mix of serious drama and classic films, the inclusion of lighthearted titles like 'Little Women' and 'American Werewolf in London' suggests an openness to genre variety. 'Young Frankenstein'—a comedic spoof—contains a satirical element but still balances period style with humor that may appeal."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Contact (1997)\", \"Ice Storm, The (1997)\", \"Tomorrow Never Dies (1997)\", \"Game, The (1997)\", \"G.I. Jane (1997)\", \"Mother (1996)\"\nUser Unpreference: \"Blues Brothers 2000 (1998)\", \"Anastasia (1997)\", \"Peacemaker, The (1997)\", \"Everyone Says I Love You (1996)\"\nWhether the user will like the target movie \"Air Force One (1997)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie, a high-stakes action thriller from 1997, fits well with the user’s preference for intense, modern thrillers while differing from the less appealing styles found among the unpreferred titles."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Cat on a Hot Tin Roof (1958)\", \"Dave (1993)\", \"Around the World in 80 Days (1956)\", \"High Noon (1952)\", \"Immortal Beloved (1994)\", \"Pretty Woman (1990)\", \"Mrs. Doubtfire (1993)\"\nUser Unpreference: \"Somewhere in Time (1980)\", \"Heavy Metal (1981)\", \"Homeward Bound: The Incredible Journey (1993)\"\nWhether the user will like the target movie \"Winnie the Pooh and the Blustery Day (1968)\"?",
+      "output": "Yes.",
+      "explanation": "Despite the older era of the target movie, its charming, family-friendly style and classic animation are likely to appeal given the user’s diverse taste that includes both sophisticated dramas and lighter, heartwarming films."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"It Happened One Night (1934)\", \"Great Dictator, The (1940)\", \"Manchurian Candidate, The (1962)\", \"Silence of the Lambs, The (1991)\", \"Blade Runner (1982)\", \"Forrest Gump (1994)\", \"North by Northwest (1959)\", \"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)\", \"Forbidden Planet (1956)\"\nUser Unpreference: \"Fish Called Wanda, A (1988)\"\nWhether the user will like the target movie \"Indiana Jones and the Last Crusade (1989)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie’s mix of action, adventure, and wit aligns closely with the user’s liking for iconic classics, even though the user dislikes a very different style such as that seen in 'Fish Called Wanda'."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)\", \"Monty Python and the Holy Grail (1974)\", \"Amadeus (1984)\", \"Princess Bride, The (1987)\", \"Man Who Would Be King, The (1975)\", \"Vertigo (1958)\", \"Citizen Kane (1941)\", \"North by Northwest (1959)\", \"Philadelphia Story, The (1940)\"\nUser Unpreference: \"Arsenic and Old Lace (1944)\"\nWhether the user will like the target movie \"Henry V (1989)\"?",
+      "output": "Yes.",
+      "explanation": "The user’s preferred films include a range of classics and sophisticated dramas. 'Henry V' (1989) shares the grand historical style and serious tone that align it with many of the user’s favored films."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Corrina, Corrina (1994)\"\nUser Unpreference: \"Baby-Sitters Club, The (1995)\", \"Canadian Bacon (1994)\", \"Muppet Treasure Island (1996)\", \"French Kiss (1995)\", \"Addams Family Values (1993)\", \"Serial Mom (1994)\", \"In the Army Now (1994)\", \"Mask, The (1994)\"\nWhether the user will like the target movie \"Four Rooms (1995)\"?",
+      "output": "No.",
+      "explanation": "The single preference available is narrow compared to the broad range of movies the user explicitly dislikes (which include generally light, quirky or family-oriented comedies). 'Four Rooms' has an offbeat style that is closer to the unpreferred group."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \nUser Unpreference: \"Primal Fear (1996)\", \"Clerks (1994)\", \"Rob Roy (1995)\", \"Forget Paris (1995)\", \"Clockers (1995)\", \"Reality Bites (1994)\", \"Nine Months (1995)\", \"Sleepless in Seattle (1993)\", \"American President, The (1995)\", \"Get Shorty (1995)\"\nWhether the user will like the target movie \"Roman Holiday (1953)\"?",
+      "output": "Yes.",
+      "explanation": "With no expressed preferences and a set of unpreferred modern films, 'Roman Holiday' offers a classic, timeless charm that stands in contrast to the modern styles the user dislikes, making it likely acceptable."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Raiders of the Lost Ark (1981)\", \"Casino (1995)\", \"Aliens (1986)\", \"Casablanca (1942)\", \"Taxi Driver (1976)\", \"Bad Boys (1995)\", \"True Romance (1993)\", \"Die Hard (1988)\"\nUser Unpreference: \"Fish Called Wanda, A (1988)\", \"Tales from the Hood (1995)\"\nWhether the user will like the target movie \"Basic Instinct (1992)\"?",
+      "output": "No.",
+      "explanation": "The user’s films consist of edge-of-your-seat thrillers and classic action movies, whereas 'Basic Instinct' is an erotic thriller with a style that does not match the user’s preferred dramatic intensity."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Miller's Crossing (1990)\", \"Rear Window (1954)\", \"Emma (1996)\", \"Lion King, The (1994)\", \"Real Genius (1985)\", \"Graduate, The (1967)\", \"Schindler's List (1993)\", \"Unforgiven (1992)\"\nUser Unpreference: \"Raising Arizona (1987)\", \"Crimson Tide (1995)\"\nWhether the user will like the target movie \"Star Trek: The Wrath of Khan (1982)\"?",
+      "output": "No.",
+      "explanation": "Despite a strong lineup of celebrated films among the preferences, the target movie is a genre classic sci‐fi which does not quite match the more dramatic or historically-based favorites in the user’s list. This contrast explains the 'No' decision."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Blade Runner (1982)\", \"Maltese Falcon, The (1941)\", \"Supercop (1992)\"\nUser Unpreference: \"Birdcage, The (1996)\", \"When a Man Loves a Woman (1994)\", \"Sophie's Choice (1982)\", \"Highlander (1986)\", \"Philadelphia (1993)\", \"Top Gun (1986)\", \"In the Realm of the Senses (Ai no corrida) (1976)\"\nWhether the user will like the target movie \"Abyss, The (1989)\"?",
+      "output": "Yes.",
+      "explanation": "Given the user’s fondness for strong genre films like 'Blade Runner' and classic noir ('Maltese Falcon') plus an action title like 'Supercop,' the target movie’s blend of sci‑fi action and tension (typical of 'The Abyss') makes it a likely match."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Arrival, The (1996)\"\nUser Unpreference: \"Lost World: Jurassic Park, The (1997)\", \"First Kid (1996)\", \"Thin Line Between Love and Hate, A (1996)\", \"Alaska (1996)\", \"Mulholland Falls (1996)\", \"Substitute, The (1996)\", \"Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996)\", \"Underworld (1997)\", \"Sunset Park (1996)\"\nWhether the user will like the target movie \"Fathers' Day (1997)\"?",
+      "output": "No.",
+      "explanation": "The preference for 'Arrival, The' indicates a taste for thoughtful, serious sci‑fi while the unpreferred list contains light, inauthentic or overly commercial films. 'Fathers' Day' does not share the same narrative depth or tone and so does not match the user’s taste."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Casper (1995)\", \"Akira (1988)\", \"Mask, The (1994)\", \"Cape Fear (1991)\", \"Net, The (1995)\", \"Interview with the Vampire (1994)\", \"Powder (1995)\", \"Godfather: Part II, The (1974)\", \"Mark of Zorro, The (1940)\"\nUser Unpreference: \"NeverEnding Story III, The (1994)\"\nWhether the user will like the target movie \"Demolition Man (1993)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie is an action-packed, futuristic thriller that resonates with the eclectic tastes shown (from animated classics to serious dramas). Its mix of stylized violence and 90s design fits the user’s preference, especially when contrasted with the one unpreferred title."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Jerry Maguire (1996)\", \"Star Wars (1977)\", \"Four Weddings and a Funeral (1994)\", \"Wizard of Oz, The (1939)\", \"Bob Roberts (1992)\", \"Terminator 2: Judgment Day (1991)\"\nUser Unpreference: \"Seven (Se7en) (1995)\", \"Pink Floyd - The Wall (1982)\", \"Bound (1996)\", \"Room with a View, A (1986)\"\nWhether the user will like the target movie \"GoldenEye (1995)\"?",
+      "output": "Yes.",
+      "explanation": "Although the user’s preferences are diverse, the inclusion of titles like 'Jerry Maguire' and 'Terminator 2' shows an appetite for action and well-made blockbusters. 'GoldenEye' fits as a solid, entertaining 90s action film and aligns with that taste."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Star Wars (1977)\", \"Dead Man Walking (1995)\", \"Secrets & Lies (1996)\", \"Primal Fear (1996)\"\nUser Unpreference: \"Michael Collins (1996)\", \"Waiting for Guffman (1996)\", \"River Wild, The (1994)\", \"Truth About Cats & Dogs, The (1996)\", \"Sleepers (1996)\", \"Ghost and the Darkness, The (1996)\"\nWhether the user will like the target movie \"Birdcage, The (1996)\"?",
+      "output": "No.",
+      "explanation": "The user’s selection of preferred films shows an inclination toward serious drama and epic storytelling, while 'Birdcage, The' is a broad comedy. This mismatch in tone explains why the recommendation is 'No.'"
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Gattaca (1997)\", \"Conspiracy Theory (1997)\", \"Evita (1996)\", \"Saint, The (1997)\", \"Star Wars (1977)\", \"Return of the Jedi (1983)\", \"Breakdown (1997)\"\nUser Unpreference: \"Liar Liar (1997)\", \"Dante's Peak (1997)\", \"Volcano (1997)\"\nWhether the user will like the target movie \"Men in Black (1997)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie is a stylish, fast-paced action comedy with a science fiction twist that aligns with many of the user's eclectic yet modern tastes, and it avoids the overly dramatic or unrealistic elements present in the unpreferred group."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Farewell to Arms, A (1932)\", \"Sting, The (1973)\", \"High Noon (1952)\", \"Raging Bull (1980)\", \"Twelve Monkeys (1995)\", \"Good, The Bad and The Ugly, The (1966)\", \"GoodFellas (1990)\", \"Indiana Jones and the Last Crusade (1989)\", \"Day the Earth Stood Still, The (1951)\"\nUser Unpreference: \"Hudsucker Proxy, The (1994)\"\nWhether the user will like the target movie \"Piano, The (1993)\"?",
+      "output": "No.",
+      "explanation": "While the user favors several classics and epic dramas, the target movie’s emotional tone and style—although notable—are inconsistent with those preferences when compared with the admired period pieces and epic narratives."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Apollo 13 (1995)\", \"Ben-Hur (1959)\", \"Unforgiven (1992)\", \"Mr. Smith Goes to Washington (1939)\", \"Beauty and the Beast (1991)\", \"Night of the Living Dead (1968)\", \"Deer Hunter, The (1978)\"\nUser Unpreference: \"Princess Bride, The (1987)\", \"2001: A Space Odyssey (1968)\", \"Swiss Family Robinson (1960)\"\nWhether the user will like the target movie \"Firm, The (1993)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie shares elements of historical drama and powerful storytelling similar to what the user appreciates. Its tone and narrative are distinct from the unpreferred titles, aligning it with the user’s overall taste."
+    },
+    {
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Fugitive, The (1993)\", \"Die Hard (1988)\", \"Mary Poppins (1964)\", \"Terminator 2: Judgment Day (1991)\"\nUser Unpreference: \"Chinatown (1974)\", \"Carrie (1976)\", \"Willy Wonka and the Chocolate Factory (1971)\", \"Princess Bride, The (1987)\", \"Patton (1970)\", \"Long Kiss Goodnight, The (1996)\", \"Sting, The (1973)\"\nWhether the user will like the target movie \"Terminator 2: Judgment Day (1991)\"?",
+      "output": "Yes.",
+      "explanation": "Here the target movie is exactly one of the user’s clear favorites. The preference is reaffirmed by the presence of films with similar intense action and dramatic flair."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Rock, The (1996)\", \"Mission: Impossible (1996)\", \"Raiders of the Lost Ark (1981)\", \"Fugitive, The (1993)\", \"Terminator, The (1984)\", \"Top Gun (1986)\"\nUser Unpreference: \"Ghost (1990)\", \"Executive Decision (1996)\", \"Empire Strikes Back, The (1980)\", \"Under Siege (1992)\"\nWhether the user will like the target movie \"Speed (1994)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie 'Speed' is a fast-paced action film that fits well with the user’s fondness for high-energy, iconic action movies. It shares common thread with favorites like 'Top Gun' and 'Terminator, The.'"
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"English Patient, The (1996)\", \"Contact (1997)\", \"Seven Years in Tibet (1997)\", \"Air Force One (1997)\", \"Cop Land (1997)\"\nUser Unpreference: \"Gattaca (1997)\", \"Peacemaker, The (1997)\", \"MatchMaker, The (1997)\", \"G.I. Jane (1997)\", \"Midnight in the Garden of Good and Evil (1997)\"\nWhether the user will like the target movie \"Conspiracy Theory (1997)\"?",
+      "output": "No.",
+      "explanation": "Although many of the preferred movies are sophisticated dramas or action thrillers, 'Conspiracy Theory' has a tone and narrative that seem less intellectually engaging and conflicts with the stylistic choices expressed in the preference list."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Nightmare Before Christmas, The (1993)\", \"Hoop Dreams (1994)\", \"Grifters, The (1990)\", \"Three Colors: Blue (1993)\", \"Psycho (1960)\", \"Fugitive, The (1993)\", \"Exotica (1994)\", \"My Life as a Dog (Mitt liv som hund) (1985)\", \"Three Colors: White (1994)\"\nUser Unpreference: \"Real Genius (1985)\"\nWhether the user will like the target movie \"Smoke (1995)\"?",
+      "output": "No.",
+      "explanation": "Though the user enjoys a range of dramatic and thought-provoking films, 'Smoke' has a subdued, observational style that may lack the intensity or bold narrative flair that the preferred films exhibit."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Good, The Bad and The Ugly, The (1966)\", \"Ben-Hur (1959)\", \"Princess Bride, The (1987)\"\nUser Unpreference: \"Butch Cassidy and the Sundance Kid (1969)\", \"Jurassic Park (1993)\", \"Glory (1989)\", \"Clear and Present Danger (1994)\", \"True Romance (1993)\", \"Get Shorty (1995)\", \"Some Kind of Wonderful (1987)\"\nWhether the user will like the target movie \"Sense and Sensibility (1995)\"?",
+      "output": "No.",
+      "explanation": "Even though the user clearly enjoys epic films and adventures, 'Sense and Sensibility' is a gentle period drama that lacks the robust action and excitement found in the preferences, leading to a ‘No’ recommendation."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Glory (1989)\", \"Terminator, The (1984)\"\nUser Unpreference: \"Star Trek: The Motion Picture (1979)\", \"Alice in Wonderland (1951)\", \"So I Married an Axe Murderer (1993)\", \"Barbarella (1968)\", \"Disclosure (1994)\", \"Waterworld (1995)\", \"Herbie Rides Again (1974)\", \"English Patient, The (1996)\"\nWhether the user will like the target movie \"Pulp Fiction (1994)\"?",
+      "output": "No.",
+      "explanation": "The intense, gritty, and non-linear narrative style of 'Pulp Fiction' diverges from the straightforward, action or historically themed films the user seems to prefer. This stylistic difference drives the ‘No’ recommendation."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Four Weddings and a Funeral (1994)\", \"Like Water For Chocolate (Como agua para chocolate) (1992)\", \"Eat Drink Man Woman (1994)\", \"Madness of King George, The (1994)\", \"My Life as a Dog (Mitt liv som hund) (1985)\", \"Cold Comfort Farm (1995)\", \"My Left Foot (1989)\", \"Room with a View, A (1986)\"\nUser Unpreference: \"Secret of Roan Inish, The (1994)\", \"Richard III (1995)\"\nWhether the user will like the target movie \"Jane Eyre (1996)\"?",
+      "output": "Yes.",
+      "explanation": "The target movie is in the same period and dramatic style as many of the user’s preferred films, making its themes and tone a good match for the user’s established tastes."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Little Women (1994)\", \"Christmas Carol, A (1938)\", \"Apocalypse Now (1979)\", \"Indiana Jones and the Last Crusade (1989)\", \"Gone with the Wind (1939)\", \"American Werewolf in London, An (1981)\"\nUser Unpreference: \"While You Were Sleeping (1995)\", \"Bridges of Madison County, The (1995)\", \"Pulp Fiction (1994)\", \"My Fair Lady (1964)\"\nWhether the user will like the target movie \"Young Frankenstein (1974)\"?",
+      "output": "Yes.",
+      "explanation": "Although the tastes lean toward dramatic classics, the user’s history shows an appreciation for varied tone. 'Young Frankenstein' offers a satirical and witty twist on classical material that may appeal as a welcome change of pace."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Contact (1997)\", \"Ice Storm, The (1997)\", \"Tomorrow Never Dies (1997)\", \"Game, The (1997)\", \"G.I. Jane (1997)\", \"Mother (1996)\"\nUser Unpreference: \"Blues Brothers 2000 (1998)\", \"Anastasia (1997)\", \"Peacemaker, The (1997)\", \"Everyone Says I Love You (1996)\"\nWhether the user will like the target movie \"Air Force One (1997)\"?",
+      "output": "Yes.",
+      "explanation": "The target film is a high-energy political action thriller that carries the same sense of urgency and 1990s production values seen in the user's favorites. Its tone and style are more aligned with the user’s preferred movies than with the unpreferred ones."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Cat on a Hot Tin Roof (1958)\", \"Dave (1993)\", \"Around the World in 80 Days (1956)\", \"High Noon (1952)\", \"Immortal Beloved (1994)\", \"Pretty Woman (1990)\", \"Mrs. Doubtfire (1993)\"\nUser Unpreference: \"Somewhere in Time (1980)\", \"Heavy Metal (1981)\", \"Homeward Bound: The Incredible Journey (1993)\"\nWhether the user will like the target movie \"Winnie the Pooh and the Blustery Day (1968)\"?",
+      "output": "Yes.",
+      "explanation": "Despite coming from a very different era, the wholesome charm and timeless nature of 'Winnie the Pooh and the Blustery Day' make it a film that can appeal broadly—even to someone who also favors classic dramas—since it represents a lighter, family-friendly counterpoint."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"It Happened One Night (1934)\", \"Great Dictator, The (1940)\", \"Manchurian Candidate, The (1962)\", \"Silence of the Lambs, The (1991)\", \"Blade Runner (1982)\", \"Forrest Gump (1994)\", \"North by Northwest (1959)\", \"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)\", \"Forbidden Planet (1956)\"\nUser Unpreference: \"Fish Called Wanda, A (1988)\"\nWhether the user will like the target movie \"Indiana Jones and the Last Crusade (1989)\"?",
+      "output": "Yes.",
+      "explanation": "The adventure, humor, and historical adventure elements of 'Indiana Jones and the Last Crusade' are consistent with the classic, high-quality films the user prefers. Its style fits squarely within the appreciated range."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)\", \"Monty Python and the Holy Grail (1974)\", \"Amadeus (1984)\", \"Princess Bride, The (1987)\", \"Man Who Would Be King, The (1975)\", \"Vertigo (1958)\", \"Citizen Kane (1941)\", \"North by Northwest (1959)\", \"Philadelphia Story, The (1940)\"\nUser Unpreference: \"Arsenic and Old Lace (1944)\"\nWhether the user will like the target movie \"Henry V (1989)\"?",
+      "output": "Yes.",
+      "explanation": "The regal, historical drama of 'Henry V' matches the user’s appreciation for classic films with strong narrative and stylistic merit, and it is clearly distinct from the unpreferred light comedies."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \"Corrina, Corrina (1994)\"\nUser Unpreference: \"Baby-Sitters Club, The (1995)\", \"Canadian Bacon (1994)\", \"Muppet Treasure Island (1996)\", \"French Kiss (1995)\", \"Addams Family Values (1993)\", \"Serial Mom (1994)\", \"In the Army Now (1994)\", \"Mask, The (1994)\"\nWhether the user will like the target movie \"Four Rooms (1995)\"?",
+      "output": "No.",
+      "explanation": "Given the very limited expressed preference and a long list of unpreferred titles that lean toward the quirky and mainstream, the offbeat style and segmented narrative of 'Four Rooms' makes it unlikely to match the user’s tastes."
+    },
+    { 
+      "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+      "input": "User Preference: \nUser Unpreference: \"Primal Fear (1996)\", \"Clerks (1994)\", \"Rob Roy (1995)\", \"Forget Paris (1995)\", \"Clockers (1995)\", \"Reality Bites (1994)\", \"Nine Months (1995)\", \"Sleepless in Seattle (1993)\", \"American President, The (1995)\", \"Get Shorty (1995)\"\nWhether the user will like the target movie \"Roman Holiday (1953)\"?",
+      "output": "Yes.",
+      "explanation": "With no declared preferences to skew the taste, the unpreferred list suggests a dislike for overly modern comedies. 'Roman Holiday'—a timeless classic with gentle romance—stands apart and would likely be appreciated for its classic charm."
+    }
+]
+  
