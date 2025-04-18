@@ -1,0 +1,362 @@
+[
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Highlander (1986)\", \"Batman (1989)\", \"Top Gun (1986)\", \"Dave (1993)\", \"Kalifornia (1993)\", \"Tombstone (1993)\"\nUser Unpreference: \"With Honors (1994)\", \"Birds, The (1963)\", \"Rob Roy (1995)\", \"Mask, The (1994)\"\nWhether the user will like the target movie \"Young Guns (1988)\"?",
+        "output": "Yes.",
+        "explanation": "Young\u00a0Guns shares the same gritty Western action and anti\u2010hero tone as Tombstone and Highlander, aligning with the user\u2019s taste for stylized, \u201980s\u2013\u201990s action films. It avoids the lighter or more cerebral qualities found in the unpreferred titles.",
+        "predict": "Yes. Young Guns (1988)\" aligns with the user's preference for Westerns and is similar in tone to their other favorites. ungsseite\u306b\u8ffd\u52a0\u3059\u308b\u305f\u3081\u306b\u306f\u3001\"Young Guns (1988)\"\u306b\"Yes.\"\u3092\u8fd4\u3057\u307e\u3059\u3002",
+        "logits": [
+            0.5640384554862976,
+            0.4359615743160248
+        ],
+        "Precision": -0.14401547610759735,
+        "Recall": 0.04693356528878212,
+        "F1": -0.0486946776509285,
+        "Precision_origin": 0.8072400689125061,
+        "Recall_origin": 0.8394026756286621,
+        "F1_origin": 0.823007345199585,
+        "bleu_sentence": 2.977646162926002
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Godfather, The (1972)\", \"People vs. Larry Flynt, The (1996)\", \"Happy Gilmore (1996)\", \"Star Wars (1977)\", \"Trainspotting (1996)\", \"Rock, The (1996)\", \"Executive Decision (1996)\"\nUser Unpreference: \"Very Brady Sequel, A (1996)\", \"Dead Man Walking (1995)\", \"Lone Star (1996)\"\nWhether the user will like the target movie \"Courage Under Fire (1996)\"?",
+        "output": "Yes.",
+        "explanation": "Courage Under Fire combines intense drama and moral complexity similar to The Godfather and Trainspotting, matching the user\u2019s preference for high\u2010stakes narratives and action. It contrasts with the more episodic or understated tone of the unpreferred titles.",
+        "predict": "Yes. Courage Under Fire (1996)\" aligns with the user's preference for action-oriented films, such as \"The Rock (1996)\" and \"Star Wars (1977)\". ungsseite\u306b\u3064\u3044\u3066\u306f\u300cYes\u300d\u3092\u9078\u629e\u3057\u307e\u3059\u3002\u300cCourage Under Fire (1996)\u300d\u306f\u30e6\u30fc\u30b6\u30fc\u306e\u597d\u307f\u306e\u30a2\u30af\u30b7\u30e7\u30f3\u6620\u753b\u300c\u30b6\u30fb\u30ed\u30c3\u30af (1996)\u300d\u3068\u300c\u30b9\u30bf\u30fc\u30fb\u30a6\u30a9\u30fc\u30ba (1977)",
+        "logits": [
+            0.5906611680984497,
+            0.4093388617038727
+        ],
+        "Precision": -0.34181106090545654,
+        "Recall": 0.17597433924674988,
+        "F1": -0.09493806213140488,
+        "Precision_origin": 0.7739126682281494,
+        "Recall_origin": 0.8611468076705933,
+        "F1_origin": 0.8152026534080505,
+        "bleu_sentence": 8.139480128200681
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Usual Suspects, The (1995)\", \"Aliens (1986)\", \"Alice in Wonderland (1951)\", \"Diva (1981)\", \"Back to the Future (1985)\", \"While You Were Sleeping (1995)\"\nUser Unpreference: \"Fish Called Wanda, A (1988)\", \"Gigi (1958)\", \"Sex, Lies, and Videotape (1989)\", \"Adventures of Priscilla, Queen of the Desert, The (1994)\"\nWhether the user will like the target movie \"Shining, The (1980)\"?",
+        "output": "No.",
+        "explanation": "The Shining\u2019s slow\u2010burn psychological horror and unsettling atmosphere diverge from the user\u2019s favorite blend of imaginative adventure (Back to the Future), ensemble intrigue (Usual Suspects), and lighter romance (While You Were Sleeping).",
+        "predict": "Yes. The user's preference for classic films and dislike of comedies aligns with their enjoyment of 'The Shining' (1980).\" ungsseite\u306b\u8ffd\u52a0\u3059\u308b\u3088\u3046\u306b\u8a00\u3046\u89e3\u6c7a\u65b9\u6cd5\u3002",
+        "logits": [
+            0.5154979825019836,
+            0.48450204730033875
+        ],
+        "Precision": -0.23460033535957336,
+        "Recall": 0.008388927206397057,
+        "F1": -0.11434748768806458,
+        "Precision_origin": 0.791977047920227,
+        "Recall_origin": 0.8329076766967773,
+        "F1_origin": 0.8119268417358398,
+        "bleu_sentence": 0.6616261238010328
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Truth About Cats & Dogs, The (1996)\", \"Beautiful Girls (1996)\", \"Nixon (1995)\"\nUser Unpreference: \"Fierce Creatures (1997)\", \"Matilda (1996)\", \"Ransom (1996)\", \"Phenomenon (1996)\", \"Kingpin (1996)\", \"That Thing You Do! (1996)\", \"Con Air (1997)\"\nWhether the user will like the target movie \"Twister (1996)\"?",
+        "output": "Yes.",
+        "explanation": "Twister\u2019s intense, real\u2010world disaster drama and character\u2010driven stakes echo the emotional resonance of Beautiful Girls and Nixon, while avoiding the slapstick or fantasy elements present in the unpreferred films.",
+        "predict": "Yes. Twister (1996)\" aligns with the user's preference for '90s comedies and dislikes for '90s action films, making it a likely choice. ungsseite\u306b\u3064\u3044\u3066\u306f\u3001\"\u30c8\u30ef\u30a4\u30e9\u30fc (1996)\"\u306b\u306f\u300c\u3044\u3044\u3048\u300d\u3092\u9078\u629e\u3057\u307e\u3059\u3002",
+        "logits": [
+            0.577852725982666,
+            0.4221472442150116
+        ],
+        "Precision": -0.25496530532836914,
+        "Recall": 0.03948235884308815,
+        "F1": -0.11041714996099472,
+        "Precision_origin": 0.7885456681251526,
+        "Recall_origin": 0.8381471037864685,
+        "F1_origin": 0.8125901818275452,
+        "bleu_sentence": 0.8110757744072892
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \nUser Unpreference: \"Amityville Horror, The (1979)\", \"Wolf (1994)\", \"Army of Darkness (1993)\", \"Alien 3 (1992)\", \"Halloween: The Curse of Michael Myers (1995)\", \"Under Siege (1992)\", \"Batman Returns (1992)\", \"Empire Strikes Back, The (1980)\", \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\"\nWhether the user will like the target movie \"Conan the Barbarian (1981)\"?",
+        "output": "No.",
+        "explanation": "Without any listed preferences, but given the strong dislike for dark fantasy and franchise sequels like Army of Darkness and Alien\u00a03, Conan\u2019s brutal sword\u2010and\u2010sorcery style is likely unwelcome.",
+        "predict": "Yes. Conan the Barbarian (1981)\" aligns with the user's preference for action-adventure films, making it a likely choice. ",
+        "logits": [
+            0.6270666718482971,
+            0.3729332983493805
+        ],
+        "Precision": 0.29898902773857117,
+        "Recall": 0.08837591111660004,
+        "F1": 0.19282890856266022,
+        "Precision_origin": 0.8818837404251099,
+        "Recall_origin": 0.8463859558105469,
+        "F1_origin": 0.8637703061103821,
+        "bleu_sentence": 0.7299069384214127
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"When Harry Met Sally... (1989)\", \"Maltese Falcon, The (1941)\", \"Great Escape, The (1963)\", \"Roman Holiday (1953)\", \"North by Northwest (1959)\", \"To Kill a Mockingbird (1962)\", \"Philadelphia Story, The (1940)\", \"Right Stuff, The (1983)\"\nUser Unpreference: \"39 Steps, The (1935)\", \"2001: A Space Odyssey (1968)\"\nWhether the user will like the target movie \"It's a Wonderful Life (1946)\"?",
+        "output": "Yes.",
+        "explanation": "It\u2019s a Wonderful Life\u2019s uplifting, character\u2010driven message and classic era setting align closely with the user\u2019s favorites like Maltese Falcon and Roman Holiday, and contrasts with the more detached style of 2001 or The 39 Steps.",
+        "predict": "Yes. It's a Wonderful Life (1946)\" aligns with the user's preference for classic films from the 1940s and 1950s. ungsseite",
+        "logits": [
+            0.5673973560333252,
+            0.4326026439666748
+        ],
+        "Precision": 0.21619229018688202,
+        "Recall": 0.10662773251533508,
+        "F1": 0.16218221187591553,
+        "Precision_origin": 0.8679329752922058,
+        "Recall_origin": 0.8494614958763123,
+        "F1_origin": 0.8585979342460632,
+        "bleu_sentence": 1.463873099895357
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Air Force One (1997)\", \"Liar Liar (1997)\", \"Rock, The (1996)\", \"Close Shave, A (1995)\", \"Return of the Jedi (1983)\", \"Face/Off (1997)\", \"City of Lost Children, The (1995)\", \"Twelve Monkeys (1995)\", \"Men in Black (1997)\"\nUser Unpreference: \"Spawn (1997)\"\nWhether the user will like the target movie \"Lone Star (1996)\"?",
+        "output": "Yes.",
+        "explanation": "Lone Star\u2019s strong ensemble drama with moral complexity mirrors the character focus in Rock and Twelve Monkeys, and avoids the supernatural themes that they disliked in Spawn.",
+        "predict": "Yes. Lone Star (1996)\" aligns with the user's preference for science fiction and action films, similar to \"Face/Off (1997)\" and \"Twelve Monkeys (1995)\". ungsseite\u306b\u3064\u3044\u3066\u306f\u300cYes. Lone Star (1996)\u300d\u3092\u9078\u629e\u3057\u307e\u3059\u3002",
+        "logits": [
+            0.5586881637573242,
+            0.441311776638031
+        ],
+        "Precision": -0.12511500716209412,
+        "Recall": 0.21465055644512177,
+        "F1": 0.04054158180952072,
+        "Precision_origin": 0.8104246854782104,
+        "Recall_origin": 0.8676639795303345,
+        "F1_origin": 0.8380681276321411,
+        "bleu_sentence": 1.8721073190238358
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Program, The (1993)\", \"Clear and Present Danger (1994)\", \"Home Alone (1990)\", \"Cape Fear (1991)\", \"Pretty Woman (1990)\", \"GoldenEye (1995)\", \"Bad Boys (1995)\", \"Mortal Kombat (1995)\"\nUser Unpreference: \"Three Musketeers, The (1993)\", \"Paper, The (1994)\"\nWhether the user will like the target movie \"Outbreak (1995)\"?",
+        "output": "Yes.",
+        "explanation": "Outbreak\u2019s high\u2010tension, procedural action aligns well with Clear and Present Danger and Cape Fear, while steering clear of the swashbuckling or comedic tone evident in the unpreferred titles.",
+        "predict": "Yes. Outbreak (1995)\" aligns with the user's preference for action-adventure films, such as \"GoldenEye (1995)\" and \"Bad Boys (1995)\". ungsseite\u306b\u3064\u3044\u3066\u306f\u300c\u30a2\u30af\u30b7\u30e7\u30f3\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\u300d\u306e\u611f\u8b1d\u3092\u4e0e\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+        "logits": [
+            0.5601924657821655,
+            0.4398074746131897
+        ],
+        "Precision": -0.3558255136013031,
+        "Recall": 0.08115675300359726,
+        "F1": -0.1454101949930191,
+        "Precision_origin": 0.7715513110160828,
+        "Recall_origin": 0.8451694846153259,
+        "F1_origin": 0.8066842555999756,
+        "bleu_sentence": 0.9181924734076212
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Home Alone (1990)\", \"Secret Garden, The (1993)\", \"Dumbo (1941)\", \"Tin Men (1987)\"\nUser Unpreference: \"Black Beauty (1994)\", \"Mask, The (1994)\", \"Doors, The (1991)\", \"Strictly Ballroom (1992)\", \"Princess Caraboo (1994)\", \"American Werewolf in London, An (1981)\"\nWhether the user will like the target movie \"Lawnmower Man, The (1992)\"?",
+        "output": "No.",
+        "explanation": "Lawnmower Man\u2019s early CGI sci\u2010fi thriller style clashes with the user\u2019s preference for heartwarming family or whimsical fantasy tales like Home Alone and The Secret Garden.",
+        "predict": "Yes. The user's preference for classic Disney films and 1990s family comedies aligns with their enjoyment of 'The Lawnmower Man' (1992), a sci-fi comedy with similar themes. ungsseite\u306e\u69cb\u9020\u3092\u69cb\u7bc9\u3059\u308b\u65b9\u6cd5",
+        "logits": [
+            0.5211055874824524,
+            0.4788943827152252
+        ],
+        "Precision": -0.04110598936676979,
+        "Recall": 0.2908463180065155,
+        "F1": 0.12086403369903564,
+        "Precision_origin": 0.8245797157287598,
+        "Recall_origin": 0.8805034160614014,
+        "F1_origin": 0.8516244888305664,
+        "bleu_sentence": 1.9427446513842186
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Jean de Florette (1986)\", \"Shawshank Redemption, The (1994)\", \"Strictly Ballroom (1992)\"\nUser Unpreference: \"Aliens (1986)\", \"Fish Called Wanda, A (1988)\", \"Hunt for Red October, The (1990)\", \"Delicatessen (1991)\", \"Babe (1995)\", \"Brazil (1985)\", \"Indiana Jones and the Last Crusade (1989)\"\nWhether the user will like the target movie \"Big Night (1996)\"?",
+        "output": "No.",
+        "explanation": "Big Night\u2019s gentle, character\u2010driven culinary drama is more understated compared to the user\u2019s strong preference for emotional redemption in Shawshank or operatic flair in Strictly Ballroom.",
+        "predict": "Yes. Big Night (1996)\" aligns with the user's preference for \"Jean de Florette (1986)\" and \"Shawshank Redemption, The (1994)\", making it a likely choice. ",
+        "logits": [
+            0.5828472375869751,
+            0.4171527922153473
+        ],
+        "Precision": 0.13676397502422333,
+        "Recall": 0.12574264407157898,
+        "F1": 0.13265858590602875,
+        "Precision_origin": 0.854549765586853,
+        "Recall_origin": 0.8526824712753296,
+        "F1_origin": 0.8536151051521301,
+        "bleu_sentence": 1.7562361982675272
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Diva (1981)\", \"Back to the Future (1985)\", \"While You Were Sleeping (1995)\", \"Jurassic Park (1993)\", \"Wedding Singer, The (1998)\"\nUser Unpreference: \"Shining, The (1980)\", \"Get Shorty (1995)\", \"Picture Perfect (1997)\", \"Peacemaker, The (1997)\", \"Sphere (1998)\"\nWhether the user will like the target movie \"As Good As It Gets (1997)\"?",
+        "output": "Yes.",
+        "explanation": "As Good As It Gets balances heartfelt romance and sharp humor akin to While You Were Sleeping and Wedding Singer, while avoiding the intense horror or action of the unpreferred films.",
+        "predict": "Yes. As Good As It Gets (1997)\" aligns with the user's preference for romantic comedies, making it a likely choice. ungsseite\u306b\u3064\u3044\u3066\u306f\u3001\"As Good As It Gets (1997)\"\u306f\u30e6\u30fc\u30b6\u30fc\u306e\u597d\u307f\u306b\u5bfe\u5fdc\u3059\u308b\u30ed\u30de\u30f3\u30c6\u30a3\u30c3\u30af\u30b3\u30e1\u30c7\u30a3\u306b\u5bfe\u5fdc\u3059\u308b\u53ef\u80fd\u6027\u304c\u3042\u308b\u306e\u3067\u3001\"Yes.\" \u3092\u9078\u629e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "logits": [
+            0.6033477187156677,
+            0.3966522812843323
+        ],
+        "Precision": -0.4419184923171997,
+        "Recall": 0.08789307624101639,
+        "F1": -0.18981219828128815,
+        "Precision_origin": 0.7570451498031616,
+        "Recall_origin": 0.8463045954704285,
+        "F1_origin": 0.7991903424263,
+        "bleu_sentence": 14.766083770336666
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \nUser Unpreference: \"Wolf (1994)\", \"Army of Darkness (1993)\", \"Alien 3 (1992)\", \"Halloween: The Curse of Michael Myers (1995)\", \"Under Siege (1992)\", \"Batman Returns (1992)\", \"Empire Strikes Back, The (1980)\", \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\", \"Conan the Barbarian (1981)\"\nWhether the user will like the target movie \"Broken Arrow (1996)\"?",
+        "output": "No.",
+        "explanation": "Broken Arrow\u2019s military thriller and \u201990s action style likely conflicts with the user\u2019s dislike of genre sequels and dark sci\u2010fi/fantasy entries.",
+        "predict": "Yes. Broken Arrow (1996)\" aligns with the user's preference for Westerns and action films, making it a likely choice. ",
+        "logits": [
+            0.6519090533256531,
+            0.34809091687202454
+        ],
+        "Precision": 0.4492064118385315,
+        "Recall": 0.27766159176826477,
+        "F1": 0.36307838559150696,
+        "Precision_origin": 0.9071944952011108,
+        "Recall_origin": 0.8782817125320435,
+        "F1_origin": 0.8925040364265442,
+        "bleu_sentence": 2.4200049100584904
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Taxi Driver (1976)\", \"Terminator 2: Judgment Day (1991)\", \"Empire Strikes Back, The (1980)\", \"Princess Bride, The (1987)\", \"Silence of the Lambs, The (1991)\", \"Seven (Se7en) (1995)\", \"Field of Dreams (1989)\", \"Fugitive, The (1993)\"\nUser Unpreference: \"Monty Python and the Holy Grail (1974)\", \"Mary Poppins (1964)\"\nWhether the user will like the target movie \"Clerks (1994)\"?",
+        "output": "Yes.",
+        "explanation": "Clerks\u2019s edgy dialogue and gritty indie vibe fit better with the user\u2019s taste for darker, character\u2010driven stories like Seven and Taxi Driver, and differ from the whimsical comedy of Monty Python.",
+        "predict": "Yes. Clerks (1994)\" aligns with the user's preference for darker, more mature films, and is similar to \"Seven (Se7en) (1995)\" and \"Field of Dreams (1989)\". ",
+        "logits": [
+            0.6443929076194763,
+            0.3556070327758789
+        ],
+        "Precision": 0.23797616362571716,
+        "Recall": 0.2984280586242676,
+        "F1": 0.2692171335220337,
+        "Precision_origin": 0.8716034293174744,
+        "Recall_origin": 0.8817809820175171,
+        "F1_origin": 0.8766626715660095,
+        "bleu_sentence": 2.0363484713400783
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Evita (1996)\", \"Spawn (1997)\"\nUser Unpreference: \"George of the Jungle (1997)\", \"Saint, The (1997)\", \"Mother (1996)\", \"Jungle2Jungle (1997)\", \"Volcano (1997)\", \"Dante's Peak (1997)\", \"Midnight in the Garden of Good and Evil (1997)\", \"Beautician and the Beast, The (1997)\"\nWhether the user will like the target movie \"Antonia's Line (1995)\"?",
+        "output": "Yes.",
+        "explanation": "Antonia\u2019s Line\u2019s mature political drama and strong female lead echo the operatic scope of Evita, contrasting sharply with the broad comedies and disaster flicks the user dislikes.",
+        "predict": "Yes. Antonia's Line (1995)\" aligns with the user's preference for foreign films, making it a likely choice. ungsseite\u306b\u3064\u3044\u3066\u306f\u3001\u300cAntonia\u306e\u7dda\u300d\uff081995\uff09\u306b\u306f\u300c\u3044\u3044\u300d\u3068\u306e\u7b54\u3048\u3092\u627f\u308a\u307e\u3059\u3002",
+        "logits": [
+            0.5306621789932251,
+            0.4693378508090973
+        ],
+        "Precision": -0.3282511532306671,
+        "Recall": 0.15984627604484558,
+        "F1": -0.09468802064657211,
+        "Precision_origin": 0.7761974334716797,
+        "Recall_origin": 0.8584291338920593,
+        "F1_origin": 0.8152448534965515,
+        "bleu_sentence": 1.4505157020370458
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"River Wild, The (1994)\", \"Independence Day (ID4) (1996)\"\nUser Unpreference: \"Rumble in the Bronx (1995)\", \"Happy Gilmore (1996)\", \"Vegas Vacation (1997)\", \"She's the One (1996)\", \"Moll Flanders (1996)\", \"Mars Attacks! (1996)\", \"Beavis and Butt-head Do America (1996)\", \"Nutty Professor, The (1996)\"\nWhether the user will like the target movie \"Full Monty, The (1997)\"?",
+        "output": "Yes.",
+        "explanation": "Full Monty\u2019s heartfelt blend of humor and underdog spirit aligns more closely with River Wild\u2019s emotional core and the blockbuster camaraderie of Independence Day, while avoiding broad slapstick.",
+        "predict": "Yes. The Full Monty (1997)\" aligns with the user's preference for comedies from the 1990s, such as \"Independence Day (ID4) (1996)\" and \"River Wild, The (1994)\". ",
+        "logits": [
+            0.5908382534980774,
+            0.409161776304245
+        ],
+        "Precision": 0.10930809378623962,
+        "Recall": 0.20369358360767365,
+        "F1": 0.1574367731809616,
+        "Precision_origin": 0.8499236106872559,
+        "Recall_origin": 0.865817666053772,
+        "F1_origin": 0.8577970266342163,
+        "bleu_sentence": 1.0132434436320397
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Broken Arrow (1996)\", \"Time to Kill, A (1996)\", \"River Wild, The (1994)\", \"Great White Hype, The (1996)\"\nUser Unpreference: \"Escape from L.A. (1996)\", \"Arrival, The (1996)\", \"2 Days in the Valley (1996)\", \"Cable Guy, The (1996)\", \"Fan, The (1996)\", \"Thinner (1996)\"\nWhether the user will like the target movie \"Taxi Driver (1976)\"?",
+        "output": "Yes.",
+        "explanation": "Taxi Driver\u2019s gritty character study and moral ambiguity mirror the tension and drama in Broken Arrow and A Time to Kill, setting it apart from the stylistic or genre experiments the user dislikes.",
+        "predict": "Yes. Taxi Driver (1976)\" aligns with the user's preference for classic crime dramas, such as \"Broken Arrow (1996)\" and \"Time to Kill, A (1996)\". ",
+        "logits": [
+            0.5637382864952087,
+            0.43626174330711365
+        ],
+        "Precision": 0.2124195545911789,
+        "Recall": 0.24183815717697144,
+        "F1": 0.22834357619285583,
+        "Precision_origin": 0.8672972917556763,
+        "Recall_origin": 0.8722452521324158,
+        "F1_origin": 0.8697642683982849,
+        "bleu_sentence": 1.855362173988814
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Sting, The (1973)\", \"Dead Poets Society (1989)\", \"Army of Darkness (1993)\", \"Stand by Me (1986)\", \"Full Metal Jacket (1987)\", \"Pulp Fiction (1994)\", \"True Lies (1994)\", \"Under Siege (1992)\"\nUser Unpreference: \"Groundhog Day (1993)\", \"E.T. the Extra-Terrestrial (1982)\"\nWhether the user will like the target movie \"When Harry Met Sally... (1989)\"?",
+        "output": "Yes.",
+        "explanation": "When Harry Met Sally\u2019s sharp, character\u2010driven dialogue and romantic tension resemble the emotional depth of Dead Poets Society and Pulp Fiction, differing from the fantastical or repetitious tone of Groundhog Day and E.T.",
+        "predict": "Yes. When Harry Met Sally... (1989) aligns with the user's preference for comedies and dramas from the 1980s, such as 'Dead Poets Society (1989)' and 'Pulp Fiction (1994)'. ",
+        "logits": [
+            0.5984882116317749,
+            0.4015117585659027
+        ],
+        "Precision": 0.25390228629112244,
+        "Recall": 0.2710122764110565,
+        "F1": 0.2636417746543884,
+        "Precision_origin": 0.8742868900299072,
+        "Recall_origin": 0.8771612644195557,
+        "F1_origin": 0.8757216930389404,
+        "bleu_sentence": 9.872480395253493
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \nUser Unpreference: \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\", \"Conan the Barbarian (1981)\", \"Broken Arrow (1996)\", \"Batman (1989)\", \"Top Gun (1986)\", \"Escape from New York (1981)\", \"Jurassic Park (1993)\", \"Three Musketeers, The (1993)\", \"Mission: Impossible (1996)\"\nWhether the user will like the target movie \"Rock, The (1996)\"?",
+        "output": "No.",
+        "explanation": "Without positive preferences but a strong dislike of many \u201980s action and sci\u2010fi blockbusters, The Rock\u2019s muscular action style is likely off\u2010putting.",
+        "predict": "Yes. The user's preference for action and adventure films aligns with 'The Rock' (1996), a thrilling action movie starring Sean Connery and Nicolas Cage. ",
+        "logits": [
+            0.586167573928833,
+            0.4138324558734894
+        ],
+        "Precision": 0.30453261733055115,
+        "Recall": 0.16691333055496216,
+        "F1": 0.23604710400104523,
+        "Precision_origin": 0.882817804813385,
+        "Recall_origin": 0.8596199750900269,
+        "F1_origin": 0.8710644245147705,
+        "bleu_sentence": 2.1042495247559003
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Godfather: Part II, The (1974)\", \"Chinatown (1974)\", \"Star Wars (1977)\"\nUser Unpreference: \"Toy Story (1995)\", \"Tin Cup (1996)\", \"Aliens (1986)\", \"Star Trek IV: The Voyage Home (1986)\", \"Muppet Treasure Island (1996)\", \"Get Shorty (1995)\", \"Kingpin (1996)\"\nWhether the user will like the target movie \"Dead Man Walking (1995)\"?",
+        "output": "No.",
+        "explanation": "Dead Man Walking\u2019s sober, moral drama diverges from the user\u2019s love of epic scale (Star Wars) and classic noir intrigue (Chinatown), and avoids the lighter or genre\u2010playful films they reject.",
+        "predict": "Yes. Dead Man Walking (1995)\" aligns with the user's preference for classic films from the 1970s and 1980s, such as \"The Godfather: Part II\" and \"Chinatown.\" ",
+        "logits": [
+            0.5869964361190796,
+            0.4130035638809204
+        ],
+        "Precision": 0.2980331778526306,
+        "Recall": 0.20113687217235565,
+        "F1": 0.25035014748573303,
+        "Precision_origin": 0.8817226886749268,
+        "Recall_origin": 0.8653868436813354,
+        "F1_origin": 0.8734784126281738,
+        "bleu_sentence": 2.1957700045826782
+    },
+    {
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Die Hard 2 (1990)\", \"Mallrats (1995)\", \"True Romance (1993)\", \"Clueless (1995)\", \"Highlander (1986)\", \"Batman (1989)\"\nUser Unpreference: \"Ghost (1990)\", \"Father of the Bride (1950)\", \"With Honors (1994)\", \"Birds, The (1963)\"\nWhether the user will like the target movie \"Rob Roy (1995)\"?",
+        "output": "No.",
+        "explanation": "Rob\u00a0Roy\u2019s historical drama and tragic arc contrast with the user\u2019s preference for dynamic action and modern tone in films like Die Hard\u00a02 and True Romance.",
+        "predict": "Yes. Rob Roy (1995)\" aligns with the user's preference for action-adventure films, making it a likely choice. ungsseite\u306b\u8ffd\u52a0\u3059\u308b\u305f\u3081\u306b\u306f\u3001\"Rob Roy (1995)\"\u306b\"Yes.\"\u3092\u8fd4\u3057\u307e\u3059\u3002",
+        "logits": [
+            0.5960805416107178,
+            0.4039194881916046
+        ],
+        "Precision": -0.17822794616222382,
+        "Recall": 0.11797308921813965,
+        "F1": -0.032911516726017,
+        "Precision_origin": 0.801475465297699,
+        "Recall_origin": 0.8513732552528381,
+        "F1_origin": 0.8256711363792419,
+        "bleu_sentence": 2.041295844476696
+    }
+]

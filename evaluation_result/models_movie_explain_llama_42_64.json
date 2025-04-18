@@ -1,0 +1,20 @@
+{
+    "movie": {
+        "movie": {
+            "models_movie": {
+                "42": {
+                    "64": {
+                        "roc_auc": 0.44791666666666663,
+                        "bert_precision": 0.00357436528429389,
+                        "bert_recall": 0.16022877395153046,
+                        "bert_f1": 0.07929854840040207,
+                        "bert_precision_origin": 0.8321081399917603,
+                        "bert_recall_origin": 0.8584936261177063,
+                        "bert_f1_origin": 0.8446093797683716,
+                        "bleu_corpus": 3.5237758033303437
+                    }
+                }
+            }
+        }
+    }
+}

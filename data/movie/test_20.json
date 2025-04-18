@@ -57,7 +57,7 @@
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Jean de Florette (1986)\", \"Shawshank Redemption, The (1994)\", \"Strictly Ballroom (1992)\"\nUser Unpreference: \"Aliens (1986)\", \"Fish Called Wanda, A (1988)\", \"Hunt for Red October, The (1990)\", \"Delicatessen (1991)\", \"Babe (1995)\", \"Brazil (1985)\", \"Indiana Jones and the Last Crusade (1989)\"\nWhether the user will like the target movie \"Big Night (1996)\"?",
         "output": "No.",
-        "explanation": "Big Night’s gentle, character‐driven culinary drama is more understated compared to the user’s strong preference for emotional redemption in Shawshank or operatic flair in Strictly Ballroom."
+        "explanation": "Big Night's gentle, character‐driven culinary drama is more understated compared to the user’s strong preference for emotional redemption in Shawshank or operatic flair in Strictly Ballroom."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",

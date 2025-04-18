@@ -234,7 +234,27 @@ def main(
         print(f"Precision: {P.mean():.4f}")
         print(f"Recall:    {R.mean():.4f}")
         print(f"F1 Score:  {F1.mean():.4f}")
-        print(data)
+        
+        # --- BLEU Score ---
+        from nltk.translate.bleu_score import corpus_bleu, sentence_bleu, SmoothingFunction
+
+        # Tokenize on whitespace (you can swap in nltk.word_tokenize if you like)
+        smooth_fn = SmoothingFunction().method1
+        # prepare lists for corpus_bleu: list of list of reference token‑lists
+        refs_tokens = [[ref.split()] for ref in references]
+        hyps_tokens = [hyp.split() for hyp in outputs]
+
+        # corpus‑level BLEU
+        bleu_corpus = corpus_bleu(refs_tokens, hyps_tokens, smoothing_function=smooth_fn) * 100
+        data[train_sce][test_sce][model_name][seed][sample]["bleu_corpus"] = bleu_corpus
+
+        # optionally: per‐example BLEU
+        for i in range(len(test_data)):
+            test_data[i]['bleu_sentence'] = sentence_bleu(
+                refs_tokens[i], hyps_tokens[i], smoothing_function=smooth_fn
+            ) * 100
+
+        print(f"Corpus BLEU: {bleu_corpus:.2f}")
     f = open(result_json_data, 'w')
     json.dump(data, f, indent=4)
     f.close()

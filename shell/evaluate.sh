@@ -4,6 +4,7 @@ model_path=$(ls -d $output_dir*)
 # base_model="/home/ubuntu/CoLLM/llama-7b"
 base_model='baffo32/decapoda-research-llama-7B-hf'
 test_data="./data/movie/test_annotated_cleaned.json"
+# test_data="./data/movie/test_20.json"
 for path in $model_path
 do
     echo $path
