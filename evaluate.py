@@ -69,9 +69,9 @@ def main(
         data[train_sce][test_sce][model_name] = {}
     if not data[train_sce][test_sce][model_name].__contains__(seed):
         data[train_sce][test_sce][model_name][seed] = {}
-    if data[train_sce][test_sce][model_name][seed].__contains__(sample):
-        exit(0)
-        # data[train_sce][test_sce][model_name][seed][sample] = 
+    if not data[train_sce][test_sce][model_name][seed].__contains__(sample):
+        data[train_sce][test_sce][model_name][seed][sample] = {}
+        # exit(0)
 
 
     tokenizer = LlamaTokenizer.from_pretrained(base_model)
@@ -195,10 +195,38 @@ def main(
 
     from sklearn.metrics import roc_auc_score
 
-    data[train_sce][test_sce][model_name][seed][sample] = roc_auc_score(gold, pred)
+    # save metrics
+    # data[train_sce][test_sce][model_name][seed][sample] = roc_auc_score(gold, pred)
+    # print(f"hi: {data[train_sce][test_sce][model_name][seed].keys()}")
+    data[train_sce][test_sce][model_name][seed][sample]["roc_auc"] = roc_auc_score(gold, pred)
+    # evaluate explanation
+    if "explanation" in test_data[0]:
+        references = [f"{dp['output']} {dp['explanation']}" for dp in test_data]
+        print("=" * 40)
+        print("Compute BERT score for explanation")
+        print(f"Prediction: {outputs[0]}")
+        print(f"Reference: {references[0]}")
+        print("=" * 40)
+        from bert_score import score
+        # Compute BERTScore (precision, recall, F1), based on list of predictions and list of references
+        P, R, F1 = score(outputs, references, lang="en", rescale_with_baseline=True)
+        for i, test in tqdm(enumerate(test_data)):
+            test_data[i]['Precision'] = P[i].item()
+            test_data[i]['Recall'] = R[i].item()
+            test_data[i]['F1'] = F1[i].item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_precision"] = P.mean().item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_recall"] = R.mean().item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_f1"] = F1.mean().item()
+        print(f"Precision: {P.mean():.4f}")
+        print(f"Recall:    {R.mean():.4f}")
+        print(f"F1 Score:  {F1.mean():.4f}")
+        print(data)
     f = open(result_json_data, 'w')
     json.dump(data, f, indent=4)
     f.close()
+
+    # save output
+    print(result_json_data)
     output_json_path = f"{result_json_data.split('.')[0]}_output.json"
     f = open(output_json_path, 'w')
     json.dump(test_data, f, indent=4)
