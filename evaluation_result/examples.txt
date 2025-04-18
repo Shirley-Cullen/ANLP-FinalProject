@@ -1,0 +1,17 @@
+{
+        "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
+        "input": "User Preference: \"Magnificent Seven, The (1954)\", \"Star Trek: The Wrath of Khan (1982)\", \"Cat People (1982)\", \"Orlando (1993)\", \"Dave (1993)\", \"Jurassic Park (1993)\", \"Manhattan Murder Mystery (1993)\", \"Sleeper (1973)\"\nUser Unpreference: \"Kalifornia (1993)\", \"Perez Family, The (1995)\"\nWhether the user will like the target movie \"Snow White and the Seven Dwarfs (1937)\"?",
+        "output": "No.",
+        "explanation": "Snow White and the Seven Dwarfs (1937)\" is an early Disney animated film, unlike the user's preference for live-action films from the late 1980s to early 1990s. User dislikes include 'Kalifornia (1993)', indicating a strong preference for more mainstream content.",
+        "predict": "No. The user\u2019s preferences include classic action and science fiction, while the target movie is a classic animated film that lacks the intensity and modern style the user appears to prefer. regnig ",
+        "logits": [
+            0.31993091106414795,
+            0.680069088935852
+        ],
+        "Precision": 0.2194538563489914,
+        "Recall": 0.09981323033571243,
+        "F1": 0.16029492020606995,
+        "Precision_origin": 0.8684825301170349,
+        "Recall_origin": 0.8483132123947144,
+        "F1_origin": 0.8582794070243835
+},

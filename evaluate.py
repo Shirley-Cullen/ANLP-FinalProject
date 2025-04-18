@@ -23,6 +23,12 @@ try:
 except:  # noqa: E722
     pass
 
+def clean_ans(ans):
+    ans = ans.split("Explanation")[0]
+    ans = ans.split("\n")[0]
+    # ans = ans.split("No")[0]
+    # ans = ans.split("Yes")[0]
+    return ans
 
 def main(
     load_8bit: bool = False,
@@ -161,6 +167,7 @@ def main(
         s = generation_output.sequences
         output = tokenizer.batch_decode(s, skip_special_tokens=True)
         output = [_.split('Response:\n')[-1] for _ in output]
+        output = [clean_ans(_) for _ in output]
         print(f"output: {output}")
         
         return output, logits.tolist()
@@ -210,13 +217,20 @@ def main(
         from bert_score import score
         # Compute BERTScore (precision, recall, F1), based on list of predictions and list of references
         P, R, F1 = score(outputs, references, lang="en", rescale_with_baseline=True)
+        P_, R_, F1_ = score(outputs, references, lang="en", rescale_with_baseline=False)
         for i, test in tqdm(enumerate(test_data)):
             test_data[i]['Precision'] = P[i].item()
             test_data[i]['Recall'] = R[i].item()
             test_data[i]['F1'] = F1[i].item()
+            test_data[i]['Precision_origin'] = P_[i].item()
+            test_data[i]['Recall_origin'] = R_[i].item()
+            test_data[i]['F1_origin'] = F1_[i].item()
         data[train_sce][test_sce][model_name][seed][sample]["bert_precision"] = P.mean().item()
         data[train_sce][test_sce][model_name][seed][sample]["bert_recall"] = R.mean().item()
         data[train_sce][test_sce][model_name][seed][sample]["bert_f1"] = F1.mean().item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_precision_origin"] = P_.mean().item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_recall_origin"] = R_.mean().item()
+        data[train_sce][test_sce][model_name][seed][sample]["bert_f1_origin"] = F1_.mean().item()
         print(f"Precision: {P.mean():.4f}")
         print(f"Recall:    {R.mean():.4f}")
         print(f"F1 Score:  {F1.mean():.4f}")

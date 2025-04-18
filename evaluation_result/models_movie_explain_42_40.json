@@ -3,7 +3,15 @@
         "movie": {
             "models_movie": {
                 "42": {
-                    "40": 0.601849399717514
+                    "40": {
+                        "roc_auc": 0.601849399717514,
+                        "bert_precision": 0.20893748104572296,
+                        "Recall":    0.1669,
+                        "F1 Score":  0.1880,
+                        "bert_recall_origin": 0.8596249222755432,
+                        "bert_f1_origin": 0.862949013710022,
+                        "bert_precision_origin": 0.8667105436325073
+                    }
                 }
             }
         }
