@@ -2,101 +2,121 @@
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Highlander (1986)\", \"Batman (1989)\", \"Top Gun (1986)\", \"Dave (1993)\", \"Kalifornia (1993)\", \"Tombstone (1993)\"\nUser Unpreference: \"With Honors (1994)\", \"Birds, The (1963)\", \"Rob Roy (1995)\", \"Mask, The (1994)\"\nWhether the user will like the target movie \"Young Guns (1988)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Young Guns shares the same gritty Western action and anti‐hero tone as Tombstone and Highlander, aligning with the user’s taste for stylized, ’80s–’90s action films. It avoids the lighter or more cerebral qualities found in the unpreferred titles."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Godfather, The (1972)\", \"People vs. Larry Flynt, The (1996)\", \"Happy Gilmore (1996)\", \"Star Wars (1977)\", \"Trainspotting (1996)\", \"Rock, The (1996)\", \"Executive Decision (1996)\"\nUser Unpreference: \"Very Brady Sequel, A (1996)\", \"Dead Man Walking (1995)\", \"Lone Star (1996)\"\nWhether the user will like the target movie \"Courage Under Fire (1996)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Courage Under Fire combines intense drama and moral complexity similar to The Godfather and Trainspotting, matching the user’s preference for high‐stakes narratives and action. It contrasts with the more episodic or understated tone of the unpreferred titles."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Usual Suspects, The (1995)\", \"Aliens (1986)\", \"Alice in Wonderland (1951)\", \"Diva (1981)\", \"Back to the Future (1985)\", \"While You Were Sleeping (1995)\"\nUser Unpreference: \"Fish Called Wanda, A (1988)\", \"Gigi (1958)\", \"Sex, Lies, and Videotape (1989)\", \"Adventures of Priscilla, Queen of the Desert, The (1994)\"\nWhether the user will like the target movie \"Shining, The (1980)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "The Shining’s slow‐burn psychological horror and unsettling atmosphere diverge from the user’s favorite blend of imaginative adventure (Back to the Future), ensemble intrigue (Usual Suspects), and lighter romance (While You Were Sleeping)."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Truth About Cats & Dogs, The (1996)\", \"Beautiful Girls (1996)\", \"Nixon (1995)\"\nUser Unpreference: \"Fierce Creatures (1997)\", \"Matilda (1996)\", \"Ransom (1996)\", \"Phenomenon (1996)\", \"Kingpin (1996)\", \"That Thing You Do! (1996)\", \"Con Air (1997)\"\nWhether the user will like the target movie \"Twister (1996)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Twister’s intense, real‐world disaster drama and character‐driven stakes echo the emotional resonance of Beautiful Girls and Nixon, while avoiding the slapstick or fantasy elements present in the unpreferred films."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \nUser Unpreference: \"Amityville Horror, The (1979)\", \"Wolf (1994)\", \"Army of Darkness (1993)\", \"Alien 3 (1992)\", \"Halloween: The Curse of Michael Myers (1995)\", \"Under Siege (1992)\", \"Batman Returns (1992)\", \"Empire Strikes Back, The (1980)\", \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\"\nWhether the user will like the target movie \"Conan the Barbarian (1981)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Without any listed preferences, but given the strong dislike for dark fantasy and franchise sequels like Army of Darkness and Alien 3, Conan’s brutal sword‐and‐sorcery style is likely unwelcome."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"When Harry Met Sally... (1989)\", \"Maltese Falcon, The (1941)\", \"Great Escape, The (1963)\", \"Roman Holiday (1953)\", \"North by Northwest (1959)\", \"To Kill a Mockingbird (1962)\", \"Philadelphia Story, The (1940)\", \"Right Stuff, The (1983)\"\nUser Unpreference: \"39 Steps, The (1935)\", \"2001: A Space Odyssey (1968)\"\nWhether the user will like the target movie \"It's a Wonderful Life (1946)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "It’s a Wonderful Life’s uplifting, character‐driven message and classic era setting align closely with the user’s favorites like Maltese Falcon and Roman Holiday, and contrasts with the more detached style of 2001 or The 39 Steps."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Air Force One (1997)\", \"Liar Liar (1997)\", \"Rock, The (1996)\", \"Close Shave, A (1995)\", \"Return of the Jedi (1983)\", \"Face/Off (1997)\", \"City of Lost Children, The (1995)\", \"Twelve Monkeys (1995)\", \"Men in Black (1997)\"\nUser Unpreference: \"Spawn (1997)\"\nWhether the user will like the target movie \"Lone Star (1996)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Lone Star’s strong ensemble drama with moral complexity mirrors the character focus in Rock and Twelve Monkeys, and avoids the supernatural themes that they disliked in Spawn."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Program, The (1993)\", \"Clear and Present Danger (1994)\", \"Home Alone (1990)\", \"Cape Fear (1991)\", \"Pretty Woman (1990)\", \"GoldenEye (1995)\", \"Bad Boys (1995)\", \"Mortal Kombat (1995)\"\nUser Unpreference: \"Three Musketeers, The (1993)\", \"Paper, The (1994)\"\nWhether the user will like the target movie \"Outbreak (1995)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Outbreak’s high‐tension, procedural action aligns well with Clear and Present Danger and Cape Fear, while steering clear of the swashbuckling or comedic tone evident in the unpreferred titles."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Home Alone (1990)\", \"Secret Garden, The (1993)\", \"Dumbo (1941)\", \"Tin Men (1987)\"\nUser Unpreference: \"Black Beauty (1994)\", \"Mask, The (1994)\", \"Doors, The (1991)\", \"Strictly Ballroom (1992)\", \"Princess Caraboo (1994)\", \"American Werewolf in London, An (1981)\"\nWhether the user will like the target movie \"Lawnmower Man, The (1992)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Lawnmower Man’s early CGI sci‐fi thriller style clashes with the user’s preference for heartwarming family or whimsical fantasy tales like Home Alone and The Secret Garden."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Jean de Florette (1986)\", \"Shawshank Redemption, The (1994)\", \"Strictly Ballroom (1992)\"\nUser Unpreference: \"Aliens (1986)\", \"Fish Called Wanda, A (1988)\", \"Hunt for Red October, The (1990)\", \"Delicatessen (1991)\", \"Babe (1995)\", \"Brazil (1985)\", \"Indiana Jones and the Last Crusade (1989)\"\nWhether the user will like the target movie \"Big Night (1996)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Big Night’s gentle, character‐driven culinary drama is more understated compared to the user’s strong preference for emotional redemption in Shawshank or operatic flair in Strictly Ballroom."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Diva (1981)\", \"Back to the Future (1985)\", \"While You Were Sleeping (1995)\", \"Jurassic Park (1993)\", \"Wedding Singer, The (1998)\"\nUser Unpreference: \"Shining, The (1980)\", \"Get Shorty (1995)\", \"Picture Perfect (1997)\", \"Peacemaker, The (1997)\", \"Sphere (1998)\"\nWhether the user will like the target movie \"As Good As It Gets (1997)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "As Good As It Gets balances heartfelt romance and sharp humor akin to While You Were Sleeping and Wedding Singer, while avoiding the intense horror or action of the unpreferred films."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \nUser Unpreference: \"Wolf (1994)\", \"Army of Darkness (1993)\", \"Alien 3 (1992)\", \"Halloween: The Curse of Michael Myers (1995)\", \"Under Siege (1992)\", \"Batman Returns (1992)\", \"Empire Strikes Back, The (1980)\", \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\", \"Conan the Barbarian (1981)\"\nWhether the user will like the target movie \"Broken Arrow (1996)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Broken Arrow’s military thriller and ’90s action style likely conflicts with the user’s dislike of genre sequels and dark sci‐fi/fantasy entries."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Taxi Driver (1976)\", \"Terminator 2: Judgment Day (1991)\", \"Empire Strikes Back, The (1980)\", \"Princess Bride, The (1987)\", \"Silence of the Lambs, The (1991)\", \"Seven (Se7en) (1995)\", \"Field of Dreams (1989)\", \"Fugitive, The (1993)\"\nUser Unpreference: \"Monty Python and the Holy Grail (1974)\", \"Mary Poppins (1964)\"\nWhether the user will like the target movie \"Clerks (1994)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Clerks’s edgy dialogue and gritty indie vibe fit better with the user’s taste for darker, character‐driven stories like Seven and Taxi Driver, and differ from the whimsical comedy of Monty Python."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Evita (1996)\", \"Spawn (1997)\"\nUser Unpreference: \"George of the Jungle (1997)\", \"Saint, The (1997)\", \"Mother (1996)\", \"Jungle2Jungle (1997)\", \"Volcano (1997)\", \"Dante's Peak (1997)\", \"Midnight in the Garden of Good and Evil (1997)\", \"Beautician and the Beast, The (1997)\"\nWhether the user will like the target movie \"Antonia's Line (1995)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Antonia’s Line’s mature political drama and strong female lead echo the operatic scope of Evita, contrasting sharply with the broad comedies and disaster flicks the user dislikes."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"River Wild, The (1994)\", \"Independence Day (ID4) (1996)\"\nUser Unpreference: \"Rumble in the Bronx (1995)\", \"Happy Gilmore (1996)\", \"Vegas Vacation (1997)\", \"She's the One (1996)\", \"Moll Flanders (1996)\", \"Mars Attacks! (1996)\", \"Beavis and Butt-head Do America (1996)\", \"Nutty Professor, The (1996)\"\nWhether the user will like the target movie \"Full Monty, The (1997)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Full Monty’s heartfelt blend of humor and underdog spirit aligns more closely with River Wild’s emotional core and the blockbuster camaraderie of Independence Day, while avoiding broad slapstick."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Broken Arrow (1996)\", \"Time to Kill, A (1996)\", \"River Wild, The (1994)\", \"Great White Hype, The (1996)\"\nUser Unpreference: \"Escape from L.A. (1996)\", \"Arrival, The (1996)\", \"2 Days in the Valley (1996)\", \"Cable Guy, The (1996)\", \"Fan, The (1996)\", \"Thinner (1996)\"\nWhether the user will like the target movie \"Taxi Driver (1976)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "Taxi Driver’s gritty character study and moral ambiguity mirror the tension and drama in Broken Arrow and A Time to Kill, setting it apart from the stylistic or genre experiments the user dislikes."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Sting, The (1973)\", \"Dead Poets Society (1989)\", \"Army of Darkness (1993)\", \"Stand by Me (1986)\", \"Full Metal Jacket (1987)\", \"Pulp Fiction (1994)\", \"True Lies (1994)\", \"Under Siege (1992)\"\nUser Unpreference: \"Groundhog Day (1993)\", \"E.T. the Extra-Terrestrial (1982)\"\nWhether the user will like the target movie \"When Harry Met Sally... (1989)\"?",
-        "output": "Yes."
+        "output": "Yes.",
+        "explanation": "When Harry Met Sally’s sharp, character‐driven dialogue and romantic tension resemble the emotional depth of Dead Poets Society and Pulp Fiction, differing from the fantastical or repetitious tone of Groundhog Day and E.T."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \nUser Unpreference: \"Star Trek III: The Search for Spock (1984)\", \"Star Trek VI: The Undiscovered Country (1991)\", \"Conan the Barbarian (1981)\", \"Broken Arrow (1996)\", \"Batman (1989)\", \"Top Gun (1986)\", \"Escape from New York (1981)\", \"Jurassic Park (1993)\", \"Three Musketeers, The (1993)\", \"Mission: Impossible (1996)\"\nWhether the user will like the target movie \"Rock, The (1996)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Without positive preferences but a strong dislike of many ’80s action and sci‐fi blockbusters, The Rock’s muscular action style is likely off‐putting."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Godfather: Part II, The (1974)\", \"Chinatown (1974)\", \"Star Wars (1977)\"\nUser Unpreference: \"Toy Story (1995)\", \"Tin Cup (1996)\", \"Aliens (1986)\", \"Star Trek IV: The Voyage Home (1986)\", \"Muppet Treasure Island (1996)\", \"Get Shorty (1995)\", \"Kingpin (1996)\"\nWhether the user will like the target movie \"Dead Man Walking (1995)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Dead Man Walking’s sober, moral drama diverges from the user’s love of epic scale (Star Wars) and classic noir intrigue (Chinatown), and avoids the lighter or genre‐playful films they reject."
     },
     {
         "instruction": "Given the user's preference and unpreference, identify whether the user will like the target movie by answering \"Yes.\" or \"No.\".",
         "input": "User Preference: \"Die Hard 2 (1990)\", \"Mallrats (1995)\", \"True Romance (1993)\", \"Clueless (1995)\", \"Highlander (1986)\", \"Batman (1989)\"\nUser Unpreference: \"Ghost (1990)\", \"Father of the Bride (1950)\", \"With Honors (1994)\", \"Birds, The (1963)\"\nWhether the user will like the target movie \"Rob Roy (1995)\"?",
-        "output": "No."
+        "output": "No.",
+        "explanation": "Rob Roy’s historical drama and tragic arc contrast with the user’s preference for dynamic action and modern tone in films like Die Hard 2 and True Romance."
     }
 ]
